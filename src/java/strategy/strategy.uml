@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-6.5" y="103.5">strategy.ItFly</node>
+    <node x="-2.0" y="-16.5">strategy.IFly</node>
+    <node x="-11.0" y="183.5">strategy.Animal</node>
+    <node x="184.5" y="-16.5">strategy.CantFly</node>
+    <node x="162.5" y="183.5">strategy.Dog</node>
+    <node x="-2.0" y="303.5">strategy.Bird</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategy.Dog" target="strategy.Animal">
+      <point x="-37.5" y="0.0" />
+      <point x="51.0" y="0.0" />
+    </edge>
+    <edge source="strategy.Bird" target="strategy.Animal">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="strategy.CantFly" target="strategy.IFly">
+      <point x="-55.5" y="0.0" />
+      <point x="42.0" y="0.0" />
+    </edge>
+    <edge source="strategy.ItFly" target="strategy.IFly">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="421.0" y="265.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

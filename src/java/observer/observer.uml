@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="270.0">observer.StockGrabber</node>
+    <node x="93.00000000000003" y="0.0">observer.Observer</node>
+    <node x="207.19" y="509.0">observer.StockWrapper</node>
+    <node x="338.0" y="309.0">observer.StockObserver</node>
+    <node x="227.97500000000002" y="109.0">observer.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="observer.StockObserver" target="observer.Subject">
+      <point x="0.0" y="-55.5" />
+      <point x="527.0" y="245.0" />
+      <point x="487.17499999999995" y="245.0" />
+      <point x="115.19999999999996" y="55.5" />
+    </edge>
+    <edge source="observer.StockGrabber" target="observer.Subject">
+      <point x="102.0" y="-94.5" />
+      <point x="255.0" y="245.0" />
+      <point x="256.775" y="245.0" />
+      <point x="-115.2" y="55.5" />
+    </edge>
+    <edge source="observer.StockWrapper" target="observer.Subject">
+      <point x="52.0" y="-29.5" />
+      <point x="337.19" y="484.0" />
+      <point x="327.5" y="484.0" />
+      <point x="327.5" y="245.0" />
+      <point x="371.975" y="245.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="observer.StockWrapper" target="observer.StockGrabber">
+      <point x="-52.0" y="-29.5" />
+      <point x="233.19" y="484.0" />
+      <point x="153.0" y="484.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="observer.StockGrabber" target="observer.Observer">
+      <point x="-102.0" y="-94.5" />
+      <point x="51.0" y="245.0" />
+      <point x="131.19" y="245.0" />
+      <point x="131.19" y="79.0" />
+      <point x="140.25000000000003" y="79.0" />
+      <point x="-141.75" y="29.5" />
+    </edge>
+    <edge source="observer.Subject" target="observer.Observer">
+      <point x="2.8421709430404007E-14" y="-55.5" />
+      <point x="371.975" y="89.0" />
+      <point x="329.25" y="89.0" />
+      <point x="47.25" y="29.5" />
+    </edge>
+    <edge source="observer.StockObserver" target="observer.Observer">
+      <point x="126.0" y="-55.5" />
+      <point x="653.0" y="245.0" />
+      <point x="598.84" y="245.0" />
+      <point x="598.84" y="89.0" />
+      <point x="423.75" y="89.0" />
+      <point x="141.75" y="29.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2999999999999998" x="478.03781512605013" y="241.0588235294117" />
+  <SelectedNodes>
+    <node>observer.Observer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
