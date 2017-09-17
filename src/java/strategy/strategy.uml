@@ -3,35 +3,48 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="-6.5" y="103.5">strategy.ItFly</node>
-    <node x="-2.0" y="-16.5">strategy.IFly</node>
-    <node x="-11.0" y="183.5">strategy.Animal</node>
-    <node x="184.5" y="-16.5">strategy.CantFly</node>
-    <node x="162.5" y="183.5">strategy.Dog</node>
-    <node x="-2.0" y="303.5">strategy.Bird</node>
+    <node x="543.75" y="109.0">strategy.ItFly</node>
+    <node x="448.25" y="0.0">strategy.IFly</node>
+    <node x="0.0" y="0.0">strategy.Animal</node>
+    <node x="352.75" y="109.0">strategy.CantFly</node>
+    <node x="118.75" y="656.0">strategy.Dog</node>
+    <node x="14.75" y="669.0">strategy.Bird</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="strategy.Dog" target="strategy.Animal">
-      <point x="-37.5" y="0.0" />
-      <point x="51.0" y="0.0" />
-    </edge>
     <edge source="strategy.Bird" target="strategy.Animal">
       <point x="0.0" y="-16.5" />
-      <point x="0.0" y="16.5" />
+      <point x="56.75" y="631.0" />
+      <point x="67.5" y="631.0" />
+      <point x="-67.5" y="303.0" />
+    </edge>
+    <edge source="strategy.Dog" target="strategy.Animal">
+      <point x="0.0" y="-29.5" />
+      <point x="213.25" y="631.0" />
+      <point x="202.5" y="631.0" />
+      <point x="67.5" y="303.0" />
     </edge>
     <edge source="strategy.CantFly" target="strategy.IFly">
-      <point x="-55.5" y="0.0" />
-      <point x="42.0" y="0.0" />
+      <point x="0.0" y="-29.5" />
+      <point x="438.25" y="84.0" />
+      <point x="491.0" y="84.0" />
+      <point x="-42.75" y="29.5" />
     </edge>
     <edge source="strategy.ItFly" target="strategy.IFly">
-      <point x="0.0" y="-16.5" />
-      <point x="0.0" y="16.5" />
+      <point x="0.0" y="-29.5" />
+      <point x="629.25" y="84.0" />
+      <point x="576.5" y="84.0" />
+      <point x="42.75" y="29.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="421.0" y="265.0" />
-  <SelectedNodes />
-  <Categories />
+  <settings layout="Hierarchic Group" zoom="0.8" x="205.0" y="353.375" />
+  <SelectedNodes>
+    <node>strategy.Animal</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

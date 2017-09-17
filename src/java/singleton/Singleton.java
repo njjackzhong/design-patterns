@@ -6,9 +6,9 @@ import java.util.LinkedList;
 
 public class Singleton {
 
-    static boolean firstThread = true;
-    private static Singleton Instance = null;
-    String[] scrabbleLetters = {"a", "a", "a", "a", "b", "b", "c", "c", "d", "d", "e", "e", "f", "g", "h", "k"};
+    private static boolean firstThread = true;
+    private static Singleton firstInstance = null;
+    private String[] scrabbleLetters = {"a", "a", "a", "a", "b", "b", "c", "c", "d", "d", "e", "e", "f", "g", "h", "k"};
     private LinkedList<String> letterList = new LinkedList<>(Arrays.asList(scrabbleLetters));
 
     private Singleton() {
@@ -16,7 +16,7 @@ public class Singleton {
 
     public static Singleton getInstance() {
 
-        if (Instance == null) {
+        if (firstInstance == null) {
 
             if (firstThread) {
 
@@ -31,26 +31,26 @@ public class Singleton {
 
             }
 
-            synchronized (Singleton.class) {
+//            synchronized (Singleton.class) {
+            {
+                if (firstInstance == null) {
 
-                if (Instance == null) {
+                    firstInstance = new Singleton();
 
-                    Instance = new Singleton();
-
-                    Collections.shuffle(Instance.letterList);
+                    Collections.shuffle(firstInstance.letterList);
 
                 }
 
             }
         }
-        return Instance;
+        return firstInstance;
 
     }
 
 
     public LinkedList<String> getLetterList() {
 
-        return Instance.letterList;
+        return firstInstance.letterList;
 
 
     }
@@ -61,7 +61,7 @@ public class Singleton {
 
         for (int i = 0; i <= howManyTiles; i++) {
 
-            tilesToSend.add(Instance.letterList.remove(0));
+            tilesToSend.add(firstInstance.letterList.remove(0));
 
 
         }

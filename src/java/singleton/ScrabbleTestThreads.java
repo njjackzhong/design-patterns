@@ -12,6 +12,14 @@ public class ScrabbleTestThreads {
 
         executorService.submit(ScrabbleTestThreads::process);
         executorService.submit(ScrabbleTestThreads::process);
+        executorService.submit(ScrabbleTestThreads::process);
+        executorService.submit(ScrabbleTestThreads::process);
+        executorService.submit(ScrabbleTestThreads::process);
+        executorService.submit(ScrabbleTestThreads::process);
+        executorService.submit(ScrabbleTestThreads::process);
+        executorService.submit(ScrabbleTestThreads::process);
+        executorService.submit(ScrabbleTestThreads::process);
+        executorService.submit(ScrabbleTestThreads::process);
 
         executorService.shutdown();
 
