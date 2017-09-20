@@ -1,4 +1,4 @@
-package facotry;
+package simple.factory;
 
 import java.util.Scanner;
 

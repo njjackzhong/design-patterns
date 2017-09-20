@@ -1,4 +1,4 @@
-package facotry;
+package simple.factory;
 
 public class RocketEnemyShip extends EnemyShip {
 

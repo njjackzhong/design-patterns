@@ -1,4 +1,4 @@
-package facotry;
+package simple.factory;
 
 public class EnemyShipFactory {
 
@@ -17,7 +17,7 @@ public class EnemyShipFactory {
                 enemyShip = new BigUFOEnemyShip();
                 break;
             default:
-                ;
+
         }
 
         return enemyShip;
