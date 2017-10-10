@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="316.10416666666663" y="93.0">factory.DatabaseLog</node>
+    <node x="10.5" y="93.0">factory.FileLog</node>
+    <node x="144.85416666666666" y="0.0">factory.Log</node>
+    <node x="158.10416666666666" y="93.0">factory.LogFactory</node>
+    <node x="42.60416666666666" y="176.0">factory.FileLogFactory</node>
+    <node x="291.60416666666663" y="176.0">factory.DatabaseLogFactory</node>
+    <node x="109.02083333333333" y="259.0">factory.LogTesting</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.LogTesting" target="factory.Log">
+      <point x="-51.75" y="-16.5" />
+      <point x="126.27083333333333" y="239.0" />
+      <point x="0.0" y="239.0" />
+      <point x="0.0" y="53.0" />
+      <point x="151.10416666666666" y="53.0" />
+      <point x="-31.25" y="16.5" />
+    </edge>
+    <edge source="factory.FileLogFactory" target="factory.FileLog">
+      <point x="-58.0" y="-16.5" />
+      <point x="71.60416666666666" y="151.0" />
+      <point x="66.0" y="151.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="factory.LogTesting" target="factory.DatabaseLogFactory">
+      <point x="51.75" y="-16.5" />
+      <point x="229.77083333333331" y="239.0" />
+      <point x="396.60416666666663" y="239.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="factory.LogTesting" target="factory.FileLogFactory">
+      <point x="-17.25" y="-16.5" />
+      <point x="160.77083333333331" y="229.0" />
+      <point x="129.60416666666666" y="229.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="factory.LogTesting" target="factory.LogFactory">
+      <point x="17.25" y="-16.5" />
+      <point x="195.27083333333331" y="229.0" />
+      <point x="227.10416666666666" y="229.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="factory.FileLogFactory" target="factory.Log">
+      <point x="0.0" y="-16.5" />
+      <point x="129.60416666666666" y="151.0" />
+      <point x="132.0" y="151.0" />
+      <point x="132.0" y="73.0" />
+      <point x="176.10416666666666" y="73.0" />
+      <point x="-6.25" y="16.5" />
+    </edge>
+    <edge source="factory.DatabaseLog" target="factory.Log">
+      <point x="0.0" y="-16.5" />
+      <point x="389.60416666666663" y="63.0" />
+      <point x="201.10416666666666" y="63.0" />
+      <point x="18.75" y="16.5" />
+    </edge>
+    <edge source="factory.DatabaseLogFactory" target="factory.LogFactory">
+      <point x="-70.0" y="-16.5" />
+      <point x="326.60416666666663" y="151.0" />
+      <point x="273.10416666666663" y="151.0" />
+      <point x="46.0" y="16.5" />
+    </edge>
+    <edge source="factory.LogFactory" target="factory.Log">
+      <point x="0.0" y="-16.5" />
+      <point x="227.10416666666666" y="73.0" />
+      <point x="188.60416666666666" y="73.0" />
+      <point x="6.25" y="16.5" />
+    </edge>
+    <edge source="factory.FileLogFactory" target="factory.LogFactory">
+      <point x="58.0" y="-16.5" />
+      <point x="187.60416666666666" y="151.0" />
+      <point x="181.10416666666666" y="151.0" />
+      <point x="-46.0" y="16.5" />
+    </edge>
+    <edge source="factory.FileLog" target="factory.Log">
+      <point x="0.0" y="-16.5" />
+      <point x="66.0" y="63.0" />
+      <point x="163.60416666666666" y="63.0" />
+      <point x="-18.75" y="16.5" />
+    </edge>
+    <edge source="factory.DatabaseLogFactory" target="factory.DatabaseLog">
+      <point x="0.0" y="-16.5" />
+      <point x="396.60416666666663" y="151.0" />
+      <point x="389.60416666666663" y="151.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="factory.DatabaseLogFactory" target="factory.Log">
+      <point x="70.0" y="-16.5" />
+      <point x="466.60416666666663" y="151.0" />
+      <point x="473.60416666666663" y="151.0" />
+      <point x="473.60416666666663" y="53.0" />
+      <point x="213.60416666666666" y="53.0" />
+      <point x="31.25" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2999999999999998" x="282.2307692307693" y="177.69230769230774" />
+  <SelectedNodes>
+    <node>factory.LogTesting</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
